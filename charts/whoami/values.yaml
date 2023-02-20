@@ -5,7 +5,7 @@
 replicaCount: 1
 
 image:
-  repository: emilevauge/whoami
+  repository: traefik/whoami
   tag: latest
   pullPolicy: IfNotPresent
 
