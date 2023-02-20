@@ -6,15 +6,15 @@ Helm's [documentation](https://helm.sh/docs) to get started.
 
 Once Helm has been set up correctly, add the repo as follows:
 
-  helm repo add <alias> https://enyachoke.github.io/helm-charts
+  helm repo add enyachoke-charts https://enyachoke.github.io/helm-charts
 
 If you had already added this repo earlier, run `helm repo update` to retrieve
 the latest versions of the packages.  You can then run `helm search repo
-<alias>` to see the charts.
+enyachoke-charts` to see the charts.
 
 To install the <chart-name> chart:
 
-    helm install my-<chart-name> <alias>/<chart-name>
+    helm install my-<chart-name> enyachoke-charts/<chart-name>
 
 To uninstall the chart:
 
